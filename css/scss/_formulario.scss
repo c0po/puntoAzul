@@ -1,0 +1,21 @@
+
+.tel{
+    width: 5rem;
+    height: 5rem;
+}
+.form-control{
+    border-radius: 0.5rem;
+}
+.boton{
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: $color-rosa;
+    border: none;
+}
+.boton:hover{
+    background-color:$color-rosa-hover ;
+}
+.boton:active{
+    background-color:$color-rosa ;
+}
+
