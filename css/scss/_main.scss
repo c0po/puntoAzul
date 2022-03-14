@@ -9,8 +9,8 @@
     height: 100%;
 }
 .main--article{
-    background-color: $color-rosa;
-    height: 30rem;
+    background-color: $color-primario;
+    height: 100%;
     width: 100%;
     margin: 1rem;
     padding: 1rem;
@@ -27,5 +27,18 @@
 }
 .titulo{
     font-family: 'Hubballi', cursive;
-    text-align: center;
+    font-size: 2.5rem;
+}
+.parrafo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+.container__div--alto{
+    height: 100vh;
+    justify-content: space-between;
+}
+.mapa{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
 }
