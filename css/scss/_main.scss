@@ -6,16 +6,26 @@
 
 .yo{
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-radius: 1rem;
-    box-shadow: 1rem 1rem 1rem $color-primario;
 }
 .main__div--texto{
-    background-color: $color-primario-transparente;
     height: auto;
     width: 100%;
-    border-radius: 0.5rem;
-    box-shadow: 0.1rem 0.1rem 0.5rem $color-primario;
+    padding-top: 2rem;
+  
+}
+.fondo{
+    background-image: url("../../media/fondo.svg");
+    background-position: center;
+    background-size:cover;
+    overflow: visible;
+    z-index: 1;
+   
+}
+.fondo--invertido{
+    @extend .fondo;
+    background-image: url("../../media/fondoinv.svg");
 }
 
 .titulo{
@@ -37,4 +47,13 @@
 }
 .row{
     min-height: 100vh;
+}
+.main__div--coneccion{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.coneccion{
+    width: 100%;
+    height: 100%;
 }

@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Raleway:wght@300&display=swap");
 * { margin: 0px; padding: 0px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-image: url("../../media/background.png"); background-size: cover; background-attachment: fixed; }
-
 .nav { height: 2.5rem; background-color: #D9C7B8 !important; -webkit-box-shadow: 0rem 0rem 0.3rem #000000; box-shadow: 0rem 0rem 0.3rem #000000; }
 
 .nav--logo { height: 2.5rem; }
@@ -19,9 +17,13 @@ body { background-image: url("../../media/background.png"); background-size: cov
 
 .main { width: 100%; min-height: 100vh; }
 
-.yo { width: 100%; height: 100%; border-radius: 1rem; -webkit-box-shadow: 1rem 1rem 1rem #D9C7B8; box-shadow: 1rem 1rem 1rem #D9C7B8; }
+.yo { width: 100%; height: 80%; border-radius: 1rem; }
 
-.main__div--texto { background-color: #d9c7b8a2; height: auto; width: 100%; border-radius: 0.5rem; -webkit-box-shadow: 0.1rem 0.1rem 0.5rem #D9C7B8; box-shadow: 0.1rem 0.1rem 0.5rem #D9C7B8; }
+.main__div--texto { height: auto; width: 100%; padding-top: 2rem; }
+
+.fondo, .fondo--invertido { background-image: url("../../media/fondo.svg"); background-position: center; background-size: cover; overflow: visible; z-index: 1; }
+
+.fondo--invertido { background-image: url("../../media/fondoinv.svg"); }
 
 .titulo { font-family: 'Hubballi', cursive; font-size: 2.5rem; }
 
@@ -32,6 +34,10 @@ body { background-image: url("../../media/background.png"); background-size: cov
 .main__div--media { width: 100%; height: auto; }
 
 .row { min-height: 100vh; }
+
+.main__div--coneccion { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
+
+.coneccion { width: 100%; height: 100%; }
 
 .footer .footer__div--uno { height: 10rem; background-color: #D9C7B8; }
 
