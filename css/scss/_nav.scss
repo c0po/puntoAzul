@@ -1,8 +1,8 @@
 @import "./colores";
 .nav{
-    width: 100%;
-    width: auto;
+    height: 2.5rem;
     background-color: $color-primario !important;
+    box-shadow: 0rem 0rem 0.3rem $black;
 }
 .nav--logo{
     height: 2.5rem;
